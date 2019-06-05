@@ -1,7 +1,6 @@
 <form method="post" action="/articles/<%= @article.id %>">
   
-  <%= @article.title %>
-  <%= @article.content %>
+  <%= @article %>
   <label for="title">Title: </label>
   <input type="text" name="title" id="title"><br />
   <label for="content">Content: </label>
